@@ -1,0 +1,43 @@
+.todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ecf7f3;
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 90px;
+  padding: 20px;
+  width: 90vw;
+  -webkit-box-shadow: rgba(75, 71, 131, 0.4) -5px 5px, rgba(46, 240, 191, 0.3) -10px 10px, rgba(204, 240, 46, 0.2) -15px 15px, rgba(46, 146, 240, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(75, 71, 131, 0.4) -5px 5px, rgba(46, 240, 191, 0.3) -10px 10px, rgba(204, 240, 46, 0.2) -15px 15px, rgba(46, 146, 240, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.todo input {
+  width: 30px;
+  height: 30px;
+}
+
+.todo button {
+  padding: 5px;
+  background: none;
+  border: none;
+  background-color: rgba(75, 71, 131, 0.089);
+  border-radius: 20%;
+}
+
+.todo button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.todo:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=todo.component.css.map */

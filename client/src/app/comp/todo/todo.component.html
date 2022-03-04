@@ -1,0 +1,12 @@
+<div class="todo">
+
+    <p>{{todo.id}}</p>
+    <p>{{todo.name}}</p>
+    <p>{{todo.todobody}}</p>
+    <p>{{todo.created | date}}</p>
+    <input #cb (change)="_data.isTodoComplete({boolean: cb.checked, todoId:todo.id})" type="checkbox"
+        [defaultChecked]="todo.isTodoComplete">
+
+
+    <button (click)="_data.delTodo(todo.id)">X</button>
+</div>

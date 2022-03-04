@@ -1,0 +1,37 @@
+.form {
+  background-color: #ecf7f3;
+  height: 120px;
+  margin: unset;
+  padding: 20px;
+  width: 100vw;
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form input,
+.form select,
+.form button {
+  height: 36px;
+  width: 30%;
+  background-color: white;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.form input:focus,
+.form select:focus,
+.form button:focus {
+  border: none;
+  border-bottom: 1px solid #1a9753;
+}
+/*# sourceMappingURL=form.component.css.map */

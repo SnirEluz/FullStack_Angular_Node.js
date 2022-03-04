@@ -1,0 +1,27 @@
+.form {
+    background-color: rgb(236, 247, 243);
+    height: 120px;
+    margin: unset;
+    padding: 20px;
+    width: 100vw;
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    input,
+    select,
+    button {
+        height: 36px;
+        width: 30%;
+        background-color: white;
+        border: 1px solid gray;
+        outline: none;
+    }
+    input:focus,
+    select:focus,
+    button:focus {
+        border: none;
+        border-bottom: 1px solid rgb(26, 151, 83);
+    }
+}

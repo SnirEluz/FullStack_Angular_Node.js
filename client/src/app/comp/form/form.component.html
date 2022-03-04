@@ -1,0 +1,10 @@
+<div class="form">
+    <form #f="ngForm" (ngSubmit)="_data.newTodo(form)">
+        <input #body type="text" [(ngModel)]="form.todobody" name="name" placeholder="What we doing today ?">
+        <select name="comp_id" [(ngModel)]="form.customer">
+            <option selected disabled>Pleas choose one</option>
+            <option [value]="customer.id" *ngFor="let customer of _data.customersArr">{{customer.name}}</option>
+        </select>
+        <button>Add</button>
+    </form>
+</div>

@@ -1,0 +1,32 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 247, 243);
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 90px;
+    padding: 20px;
+    width: 90vw;
+    box-shadow: rgba(75, 71, 131, 0.4) -5px 5px, rgba(46, 240, 191, 0.3) -10px 10px, rgba(204, 240, 46, 0.2) -15px 15px,
+        rgba(46, 146, 240, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    input {
+        width: 30px;
+        height: 30px;
+    }
+    button {
+        padding: 5px;
+        background: none;
+        border: none;
+        background-color: rgba(75, 71, 131, 0.089);
+        border-radius: 20%;
+    }
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.todo:hover {
+    transform: scale(1.03);
+}
